@@ -5,7 +5,7 @@ makes running unit tests simple as possible.
 
 [Installation Instructions](http://karma-runner.github.io/0.13/intro/installation.html)
 
-### Installing Karma and plugins
+#### Installing Karma and plugins
 
 ```sh
 # Install Karma:
@@ -15,7 +15,18 @@ $ npm install karma --save-dev
 $ npm install karma-jasmine karma-chrome-launcher --save-dev
 
 ```
-### Install Karma-Cli
+#### Install Karma-Cli
 ```sh
 $ npm install -g karma-cli
+```
+#### Set Up Your Karma Configuration File
+```
+// karma.conf.js
+module.exports = function(config) {
+  config.set({
+    basePath: '../..',
+    frameworks: ['jasmine'],
+    //...
+  });
+};
 ```
