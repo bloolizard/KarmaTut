@@ -30,3 +30,8 @@ module.exports = function(config) {
   });
 };
 ```
+#### Add Your Source JavaScript Files
+
+#### Add Your Test Cases
+
+#### Run Your Tests with Karma-Cli or Use the WebStorm Plugin
