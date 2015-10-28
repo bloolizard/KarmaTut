@@ -7,15 +7,9 @@ makes running unit tests simple as possible.
 
 ### Installing Karma and plugins
 
-```# Install Karma:
- $ npm install karma --save-dev
- 
- # Install plugins that your project needs:
- $ npm install karma-jasmine karma-chrome-launcher --save-dev
+```sh
+npm install karma --save-dev
+
+
 ```
-### Run Karma
-```
-# Run Karma:
-$ ./node_modules/karma/bin/karma start
-``` 
  
