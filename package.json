@@ -1,0 +1,28 @@
+{
+  "name": "KarmaTut",
+  "version": "1.0.0",
+  "description": "This is a tutorial for setting up Karma environment that  makes running unit tests simple as possible.  This setup uses the RequireJS library together with Jasmine Tests.",
+  "main": "karma.conf.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "karma": "^0.13.14"
+  },
+  "devDependencies": {
+    "karma": "^0.13.14"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bloolizard/KarmaTut.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bloolizard/KarmaTut/issues"
+  },
+  "homepage": "https://github.com/bloolizard/KarmaTut"
+}
