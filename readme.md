@@ -1,7 +1,7 @@
 ## Karma Tutorial for Go Live Labs
 
 This is a tutorial for setting up Karma environment that 
-makes running unit tests simple as possible.  This setup uses the RequireJS library together with Jasmine Tests.
+makes running unit tests simple as possible.  This setup uses the RequireJS library together with [Jasmine Tests](http://jasmine.github.io/2.3/introduction.html).
 
 [Installation Instructions](http://karma-runner.github.io/0.13/intro/installation.html)
 
