@@ -10,7 +10,9 @@
     "karma": "^0.13.14"
   },
   "devDependencies": {
-    "karma": "^0.13.14"
+    "karma": "^0.13.14",
+    "karma-chrome-launcher": "^0.2.1",
+    "karma-jasmine": "^0.3.6"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
