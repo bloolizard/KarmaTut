@@ -9,6 +9,7 @@ module.exports = function(config) {
             //'test/*.js',
             //'test/test-sample.js'
 
+            {pattern: 'src/*.js', included: false},
             {pattern: 'test_require/*.js', included: false},
 
             'test-main.js'
