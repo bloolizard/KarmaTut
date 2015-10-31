@@ -81,7 +81,15 @@ files: [
 
     'test-main.js'
 ],
-
-
+````
 
 #### Run Your Tests with Karma-Cli or Use the WebStorm Plugin
+````
+# Start Karma Server:
+$ karma start
+
+# Run Karma Test
+$ karma run
+````
+
+To run in Webstorm, Right Click karma.conf.js file and click Run.
