@@ -71,8 +71,17 @@ require.config({
 });
 ````
 
-#### Add Your Source JavaScript Files
+#### Add Your source files, test cases, and test-main (RequireJS)
+````
+//karma.conf.js
+files: [
 
-#### Add Your Test Cases
+    {pattern: 'src/*.js', included: false},
+    {pattern: 'test_require/*.js', included: false},
+
+    'test-main.js'
+],
+
+
 
 #### Run Your Tests with Karma-Cli or Use the WebStorm Plugin
